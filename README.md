@@ -903,6 +903,7 @@ Management panel: Settings → Plugins.
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue.
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with environment switching and bidirectional system tools; requires WSL 2 and Node.js on both systems.
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
+- [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - Run `dsh web` inside an Android PRoot/Alpine sandbox (musl, aarch64): one-command install, `dsh-go` launcher, and fixes for the glibc-prebuilt `node-pty`, `--expose-internals` inside `NODE_OPTIONS`, bootstrap-only `DSH_PERMISSION_MODE`, and the missing workspace-write backend; registers a phone mount directory (`/var/minis/mounts/Documents/...`) as the workspace so the harness reads and writes real phone files.
 
 ## Domain & Specialist Skills
 
