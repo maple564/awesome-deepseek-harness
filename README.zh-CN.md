@@ -900,6 +900,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持环境切换和双向系统操作；需要 WSL 2 及两端的 Node.js。
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
+- [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - 在 Android 的 PRoot/Alpine（musl、aarch64）沙箱里运行 `dsh web`：一条命令安装、`dsh-go` 启动器，并解决 node-pty 的 glibc 预编译包、`--expose-internals` 不能进 `NODE_OPTIONS`、`DSH_PERMISSION_MODE` 只认启动环境、容器内缺 workspace-write 后端四个问题；把手机挂载目录（`/var/minis/mounts/Documents/...`）注册为工作区，让 harness 直接读写手机文件。
 
 ## Domain & Specialist Skills
 
